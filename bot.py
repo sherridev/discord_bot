@@ -198,7 +198,7 @@ async def on_message(message):
     else:
         await channel.send(f"{user.mention}, I didn't understand that. Please check your spelling and try again.")
 
-    await bot.process_commands(message)  # Ensure commands still work
+    await bot.process_commands(message)
 
 
 # Run the bot
